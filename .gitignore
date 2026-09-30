@@ -1,0 +1,15 @@
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Temporary files
+Thumbs.db
+.DS_Store
+__pycache__/
+*.tmp
+
+# Duplicate packaged exports (source assets are tracked)
+exports/*.zip

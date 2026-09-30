@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1600" height="900" viewBox="0 0 1600 900">
+  <defs>
+    <style>
+      @font-face{font-family:Alfabet;src:url('C:/Users/rauna/Desktop/Bots/SpungeBot-Creative/brands/Spunge/assets/packaging/_fonts/fonnts.com-Alfabet_SemiBold.otf')}
+      @font-face{font-family:Sofia;src:url('C:/Users/rauna/Desktop/Bots/SpungeBot-Creative/brands/Spunge/assets/packaging/_fonts/SofiaSans-Regular.ttf')}
+      @font-face{font-family:Sofia;src:url('C:/Users/rauna/Desktop/Bots/SpungeBot-Creative/brands/Spunge/assets/packaging/_fonts/SofiaSans-SemiBold.ttf');font-weight:600}
+      .h{font-family:Alfabet,Arial,sans-serif;font-weight:600;fill:#003B4A}.b{font-family:Sofia,Arial,sans-serif;fill:#263746}.s{font-family:Sofia,Arial,sans-serif;font-weight:600;fill:#006375}
+    </style>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fff"/><stop offset="1" stop-color="#D9DAE4"/></linearGradient>
+    <filter id="shadow"><feGaussianBlur stdDeviation="16"/></filter>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <path d="M560 250 C760 250 790 600 1000 600" fill="none" stroke="#78C6E0" stroke-width="5" opacity=".42"/>
+  <g fill="#006375" opacity=".45"><circle cx="650" cy="286" r="7"/><circle cx="690" cy="326" r="5"/><circle cx="730" cy="380" r="8"/><circle cx="775" cy="440" r="4"/><circle cx="820" cy="500" r="6"/><circle cx="875" cy="552" r="4"/></g>
+  <image x="75" y="55" width="285" height="70" preserveAspectRatio="xMinYMid meet" xlink:href="C:/Users/rauna/Desktop/Bots/SpungeBot-Creative/brands/Spunge/assets/logos/spunge_logo_lockup_black_horizontal.png"/>
+  <text x="75" y="270" class="h" font-size="116">Omega 3</text>
+  <text x="75" y="390" class="h" font-size="126" fill="#006375">FISH OIL</text>
+  <text x="75" y="505" class="h" font-size="96">550 mg</text>
+  <text x="80" y="570" class="b" font-size="42">Everyday omega-3, made absorption-first</text>
+  <line x1="80" y1="620" x2="690" y2="620" stroke="#006375" stroke-width="3"/>
+  <text x="80" y="685" class="s" font-size="38">180 mg EPA</text><text x="380" y="685" class="s" font-size="38">|</text><text x="425" y="685" class="s" font-size="38">120 mg DHA</text>
+  <text x="80" y="727" class="b" font-size="28">per softgel</text>
+  <text x="80" y="790" class="s" font-size="38">30 Softgels</text><text x="335" y="790" class="s" font-size="38">|</text><text x="380" y="790" class="s" font-size="38">1 softgel a day</text>
+  <text x="80" y="855" class="b" font-size="24">13X EPA &amp; 4X DHA absorption*</text>
+  <text x="950" y="855" class="b" font-size="22">*Compared to ordinary fish oil. As per data on file.</text>
+  <ellipse cx="1260" cy="820" rx="260" ry="28" fill="#003B4A" opacity=".18" filter="url(#shadow)"/>
+  <image x="970" y="145" width="520" height="650" preserveAspectRatio="xMidYMid meet" xlink:href="C:/Users/rauna/Desktop/Bots/SpungeBot-Creative/outputs/Spunge/amazon-photography/omega_3_fish_oil_30_monocarton_1_1781789826445.png"/>
+</svg>
