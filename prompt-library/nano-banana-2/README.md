@@ -4,6 +4,8 @@ Use this folder when the target is **Nano Banana 2**, the official product name 
 
 ## Do not conflate the models
 
+Update checked 2026-10-11: the [official guide](https://ai.google.dev/gemini-api/docs/image-generation) now recommends **Nano Banana 2.1** (`gemini-nano-banana-2.1`) for new projects. This folder's existing templates and tests still target Nano Banana 2. Benchmark 2.1 separately; it supports 1K/2K/4K, and does not inherit NB2's 512px option. Check controls for the exact endpoint rather than copying settings across models.
+
 Verified against Google's image-generation guide, last reviewed 2026-09-13:
 
 | Name | API model ID | Use |
@@ -18,7 +20,7 @@ Prompts from Pro-oriented community collections are inspiration only unless test
 ## Operating loop for Gemini
 
 1. **Choose:** Search the table in [PROMPTS.md](PROMPTS.md) by task and open the named entry.
-2. **Bind references:** Number every asset in upload order. Declare one or more roles: `identity`, `product`, `style`, `composition`, `material`, or `background`. State priority when references conflict.
+2. **Bind references:** Number every asset in upload order. Declare one controlling role per reference: `identity`, `product`, `style`, `composition`, `material`, or `background`. State priority when references conflict.
 3. **Apply the brief:** Put mandatory brand assets, approved claims/copy, product truth, and identity details under `LOCKED ELEMENTS`. Style references cannot override them.
 4. **Adapt:** Replace every `{PLACEHOLDER}`. Specify subject/action, composition, camera, lighting, materials, exact text (if any), aspect ratio, image size, and exclusions. Remove irrelevant optional language.
 5. **Generate/edit:** In the API select `gemini-3.1-flash-image`. Set supported `aspect_ratio` and `image_size` in `response_format` rather than relying only on prose. In the Gemini app, use the closest exposed size/crop controls; surface availability can differ.

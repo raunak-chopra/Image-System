@@ -1,0 +1,104 @@
+id,domain,use_case,priority,baseline,route,template_ids,required_inputs,production_gate
+brand-positioning,branding,Positioning and audience brief,P0,external,strategy,,Approved research and business objectives,Brand Manager supplies strategy before visual production
+brand-creative-territories,branding,Visual direction and moodboard territories,P0,covered,image,brand-moodboard-system,Positioning and audience and brand attributes,Approve one direction before asset production
+brand-logo-ideas,branding,Distinct logo symbol concepts,P0,missing,hybrid,brand-logo-concept-territories,Approved name and territories and exclusions,Vector development and mark availability review
+brand-responsive-marks,branding,Responsive logo variants and favicon proof,P0,partial,hybrid,brand-responsive-mark-proof,Approved mark variants and minimum sizes,Place exact vector artwork and inspect at actual sizes
+brand-type-system,branding,Typography hierarchy and font assets,P0,external,native,,Approved licensed fonts and type roles,Native type specimens and actual font files
+brand-color-roles,branding,Palette roles and accessible combinations,P0,external,native,,Approved color tokens and background pairs,Measure contrast in target medium rather than inspect generated colors
+brand-guidelines,branding,Brand guideline presentation,P0,partial,hybrid,brand-moodboard-system|brand-responsive-mark-proof|design-information-layout,Approved tokens and marks and usage rules,Assemble editable guidelines from approved assets
+brand-icons,branding,Consistent interface and brand icons,P0,covered,hybrid,design-icon-family,Icon meanings and grid and stroke rules,Use existing vector icon system when available
+brand-illustrations,branding,Reusable illustration language,P0,covered,image,illustration-style-system,Medium and palette and composition rules,Approve anchor and export per asset contract
+brand-mascot,branding,Mascot anchor and expression reference,P1,covered,image,consistency-character-sheet,Original character description and identity invariants,Use approved brand character without copying a franchise
+brand-photo-language,branding,Photographic art direction,P0,covered,image,product-material-hero|product-lifestyle-context,Product refs and light and palette and mood,Approve camera and material treatment against brand brief
+brand-portrait-style,branding,Founder and team portrait style,P1,covered,image,portrait-editorial,Authorized identities and wardrobe and scene,Identity check and permission scope
+brand-patterns,branding,Seamless brand motif repeat,P1,missing,hybrid,brand-seamless-pattern,Motifs and repeat topology and density,Tiled seam proof and native geometry where needed
+brand-label-wrap,branding,Label wrap and seam preview,P0,partial,hybrid,brand-packaging-wrap-proof,Package views and approved artwork and supplier dieline,Exact copy and native printer artwork
+brand-range,branding,SKU range visual architecture,P0,covered,image,brand-color-coded-range,Approved SKU inventory and color mapping,Verify each SKU identity and count
+brand-unboxing,branding,Unboxing and insert sequence,P1,missing,image,brand-unboxing-sequence,State photos and contents manifest and opening order,No invented interior or included accessories
+brand-cobrand,branding,Partner and sponsor lockups,P1,missing,hybrid,brand-cobrand-lockup,Partner artwork and hierarchy and spacing,Original marks and approved relationship wording
+brand-stationery,branding,Stationery and merchandise applications,P1,covered,hybrid,brand-application-mockup-set,Approved marks and substrate and item inventory,Native print artwork and original mark placement
+brand-signage,branding,Storefront and environmental signage,P1,missing,hybrid,brand-environmental-signage,Site photograph and measured mounting area,Measured layout and production-owner installation checks
+brand-campaign-system,branding,Brand campaign visual system,P0,covered,image,ad-modular-campaign,Approved message and assets and format family,Consistent style contract across assets
+brand-localization,branding,Localized brand system,P0,covered,hybrid,design-localization-master,Approved locale copy and culture constraints,Native-language proof and expansion checks
+brand-material-proofs,branding,Brand material and finish presentation,P1,covered,image,edit-selective-style-material,Approved mark or object and material target,Silhouette preservation and supplier finish evidence
+brand-business-documents,branding,Editable proposal and presentation system,P1,external,native,,Content structure and brand tokens and document requirements,Use document or presentation tools with live type
+brand-motion-identity,branding,Motion identity and sonic branding,P2,external,native,,Approved motion brief and logo and sound rights,Use animation and audio tools with timing and sound QA
+brand-handoff,branding,Brand asset manifest and vector handoff,P0,external,native,,Approved source files and licensing and naming,Package editable masters with usage rules and export checks
+mkt-main-packshot,marketing,Marketplace main product image,P0,covered,image,product-white-packshot,Product truth reference and current marketplace spec,Product fill and background and exact packaging check
+mkt-gallery-benefits,marketing,Product gallery feature callouts,P0,covered,hybrid,amz-gallery-benefit-callouts,Approved feature copy and product reference,Claim and label proof at mobile size
+mkt-ingredient-breakdown,marketing,Ingredient or component breakdown,P0,covered,hybrid,amz-gallery-whats-inside,Approved contents and exact quantities if used,No invented ingredients or example recipe weights
+mkt-product-use,marketing,Product in use and lifestyle context,P0,covered,image,product-lifestyle-context,Approved user and setting and product truth,Believable scale and contact and authorized implied benefits
+mkt-comparison,marketing,Product comparison and claim table,P0,covered,hybrid,amz-gallery-comparison,Approved comparison evidence and labels,Every comparison traceable to supplied evidence
+mkt-process,marketing,How-to and assembly sequence,P0,covered,hybrid,amz-gallery-how-to-use,Approved actual steps and product references,Correct sequence and safe intended use
+mkt-proof,marketing,Review and certification proof panel,P0,covered,hybrid,amz-gallery-proof-badges|perf-testimonial-ad,Actual reviews and permission and certification artwork,No fabricated ratings or certification marks
+mkt-aplus,marketing,Amazon A+ modules,P1,covered,hybrid,amz-aplus-header-banner,Selected module and current marketplace rules,Exact module export and approved claims
+mkt-brandstore,marketing,Brand Store hero and range,P1,covered,image,amz-brandstore-hero|brand-range-on-plinth,Range references and target module,Inspect desktop and mobile crops
+mkt-bundles,marketing,Bundle inventory and included-item view,P0,covered,image,product-flat-lay,Exact bundle manifest and item references,Count every included item and exclude optional accessories
+mkt-cutaway,marketing,Evidence-based technical cutaway,P1,partial,hybrid,ecom-cutaway-evidence,Corroborated internals and cut plane and labels,No unseen structure inferred from exterior-only images
+mkt-offer,marketing,Offer and promotion static,P0,covered,hybrid,perf-offer-chip-ad,Approved offer dates and price and legal copy,Live type and exact offer proof
+mkt-acquisition,marketing,Acquisition hook and hero,P0,covered,hybrid,perf-hook-headline-ad,Approved hook and product and audience brief,Exact copy and product fidelity
+mkt-retargeting,marketing,Retargeting objection and proof,P0,covered,hybrid,perf-problem-solution-ad|perf-testimonial-ad,Approved objection and response and actual proof,No inferred testimonial or guaranteed outcome
+mkt-angle-matrix,marketing,Message-angle concept exploration,P0,partial,image,mkt-approved-angle-matrix,Approved angle-to-copy map and visual architecture,Record changed factors and do not infer performance
+mkt-display-slots,marketing,Uploaded display banner sizes,P0,missing,hybrid,mkt-display-banner-family,Exact slot list and copy and file budget,Actual-pixel reading and supported encoding
+mkt-responsive-assets,marketing,Google responsive campaign image assets,P0,covered,image,google-pmax-asset-set,Campaign brief and required asset ratios,Keep separate from uploaded display ad slots
+mkt-email,marketing,Email and newsletter artwork modules,P0,missing,hybrid,mkt-email-module-art,Module wireframe and live copy regions,Real client tests and image-blocked fallback
+mkt-landing-hero,marketing,Landing-page desktop and mobile artwork,P0,covered,hybrid,ad-modular-campaign|design-localization-master,Approved page wireframe and desktop/mobile art regions,Recompose crops and implement text and CTA natively
+mkt-event,marketing,Webinar and event speaker kit,P1,missing,hybrid,mkt-event-speaker-kit,Portrait-name map and exact time with timezone,Verify speaker pairing and schedule
+mkt-sales-case,marketing,B2B case study and sales proof,P1,missing,hybrid,mkt-case-study-evidence,Dated results and denominator and evidence captures,Render charts from actual data and verify quotes
+mkt-outdoor,marketing,Outdoor and transit proof,P1,missing,hybrid,mkt-outdoor-distance-proof,Vendor placement and viewing distance and short copy,Scaled-distance proof and supplier print requirements
+mkt-seasonal,marketing,Seasonal campaign scene adaptation,P1,covered,image,edit-background-replace|design-localization-master,Approved campaign anchor and seasonal brief,Preserve product truth and authorized cultural context
+mkt-experiment,marketing,Creative experiment and results analysis,P0,covered,hybrid,evaluation-variant-comparison,Test plan and fixed prompt and actual results,No inference of effectiveness from source preview or asset count
+mkt-strategy-measurement,marketing,Budget attribution and campaign strategy,P0,external,strategy,,Approved business goals and analytics and research,Brand Manager and analytics workflow own strategy and measurement
+app-user-flows,app,Information architecture and user journeys,P0,external,native,,Approved product requirements and task flows,Design and validate real interaction paths before visual polish
+app-wireframe,app,Wireframe-to-visual design proof,P0,covered,hybrid,design-sketch-to-layout,Approved wireframe and content inventory,Design proof only and implement components in code
+app-component-library,app,Reusable UI components and tokens,P0,external,native,,Platform design system and existing component library,Use native components and token files rather than generated raster UI
+app-icon-concept,app,App icon semantic concepts,P0,missing,hybrid,app-icon-concept,App purpose and approved symbol territories,Small-size proof and platform-specific production
+app-launcher-layers,app,Adaptive launcher foreground and monochrome,P0,missing,hybrid,app-adaptive-icon-layers,Approved icon and current layer template,Native resource assembly and actual launcher masks
+app-store-icon,app,Store listing icon export,P0,missing,hybrid,app-icon-concept,Approved icon and current store specification,Store icon is separate from launcher packaging
+app-store-screenshots,app,Store screenshot feature sequence,P0,missing,hybrid,app-store-screenshot-story,Actual captures and feature-to-frame mapping,Composite captured UI and verified shipped functionality
+app-feature-graphic,app,Google Play feature graphic,P0,missing,hybrid,app-play-feature-graphic,Approved app experience and overlay-safe composition,Verify 1024x500 encoding and current cutoff zones
+app-onboarding-art,app,Onboarding illustration family,P0,missing,image,app-onboarding-illustrations,Approved journey and step action map,Native text and permissions remain separate
+app-empty-art,app,First-use and no-data artwork,P0,missing,image,app-empty-state-art,Actual state cause and recovery action,Art semantics match live state without fake controls
+app-recovery-art,app,Error offline and no-results artwork,P0,missing,image,app-empty-state-art,Error taxonomy and approved actions,Separate empty failure and completed states
+app-achievement-art,app,Progression and achievement badge assets,P1,missing,image,app-achievement-badges,Approved tier order and symbol rules,Earned status is controlled by app logic
+app-product-tour,app,Coachmark and feature-tour placement,P1,missing,hybrid,app-product-tour-callouts,Actual capture and target bounds and step copy,Implement focus dismissal and responsive anchoring natively
+app-theme-art,app,Light and dark artwork adaptation,P0,missing,hybrid,app-theme-art-pair,Approved art and semantic color-role map,Measure in-app contrast and inspect paired alpha edges
+app-content-images,app,Editorial and product content imagery,P1,covered,image,illustration-style-system|product-lifestyle-context,Content taxonomy and approved product/editorial references,Use real identity and truthful content metadata
+app-avatar-system,app,Avatar and mascot reference family,P1,covered,image,consistency-character-sheet,Authorized character or avatar brief and style,Identity consistency and user privacy
+app-ui-icons,app,Navigation and action icon family,P0,covered,hybrid,design-icon-family,Platform icon meanings and existing vector system,Prefer native/vector icons and accessible labels
+app-splash-art,app,Launch and splash artwork,P1,covered,hybrid,brand-responsive-mark-proof,Approved mark and actual platform splash constraints,Native splash behavior and exact source mark
+app-texture,app,Tileable decorative textures,P2,partial,hybrid,brand-seamless-pattern,Texture brief and repeat topology and performance budget,Tiled seams and optimized asset size
+app-responsive-ui,app,Responsive screens and widget layouts,P0,external,native,,Breakpoints and real component/data model,Implement and inspect actual responsive UI rather than resize a screenshot
+app-state-behavior,app,Loading errors permissions and interaction states,P0,external,native,,State machine and recovery rules and API behavior,Implement and test real behavior with native components
+app-charts,app,Accurate data charts and dashboards,P0,external,native,,Actual data and units and chart semantics,Render data in chart/code tools and verify accessibility
+app-accessibility,app,Accessibility and localization behavior,P0,external,native,,Contrast targets and locale strings and interaction semantics,Test screen reader focus keyboard scaling and real contrast
+app-asset-handoff,app,Asset density naming alpha and delivery,P0,external,native,,Target platforms and resource manifest and licenses,Validate exported pixels alpha file weight and resource packaging
+app-code-release,app,Implementation builds integration and release,P0,external,native,,Repository and product requirements and build environment,Use coding and platform tooling with meaningful build tests
+social-calendar,social,Editorial calendar and audience strategy,P0,external,strategy,,Audience research and goals and approved content pillars,Brand Manager owns topics and editorial priorities
+social-carousel,social,Educational carousel with one point per slide,P0,covered,hybrid,social-carousel-slide-system,Approved slide outline and exact copy,Consistent slide ratio and mobile reading order
+social-announcement,social,Product launch and announcement tile,P0,covered,hybrid,social-announcement-tile,Approved announcement and product and launch timing,Exact dates and claims
+social-cover,social,Reels and Shorts cover crop system,P0,partial,hybrid,social-cover-crop-proof,Actual content and destination crop masks,Inspect every crop with current platform overlays
+social-thumbnail,social,Video thumbnail concept test,P0,partial,hybrid,social-thumbnail-concept-test,Actual footage and approved promise and test plan,No fake reactions or content claims
+social-story-interaction,social,Poll question and link backdrop,P0,missing,hybrid,social-native-sticker-backdrop,Native control bounds and approved question/topic,Add working interaction in the native editor
+social-quote,social,Attributed quote and testimonial card,P0,covered,hybrid,perf-testimonial-ad,Actual quote and permission and attribution,Verbatim quote and original identity proof
+social-ugc,social,Creator UGC opening frame,P0,covered,image,ad-ugc-opening-frame,Authorized creator and actual product and disclosure brief,Real product grip and required disclosure
+social-community-feature,social,Customer submission and community spotlight,P1,covered,hybrid,reference-role-composite|perf-testimonial-ad,Permitted submission and attribution and approved caption,Retain provenance and avoid invented endorsement
+social-meme,social,Brand-owned meme and reaction remix,P1,missing,hybrid,social-owned-meme-remix,Permitted frame and joke-slot map,Source reuse scope and exact joke structure
+social-podcast,social,Podcast episode and guest kit,P1,partial,hybrid,mkt-event-speaker-kit,Guest portraits and exact episode metadata,Identity pairing and release-time proof
+social-live-art,social,Transparent livestream lower thirds and frames,P1,missing,hybrid,social-live-overlay-pack,Camera rectangles and live-text zones and layer inventory,True alpha and runtime overlay registration
+social-stickers,social,Brand sticker and reaction assets,P1,missing,image,social-brand-sticker-pack,Approved mascot/motif and expression inventory,Isolated exports with consistent alpha and padding
+social-short-video-plan,social,Short-video storyboard and shot references,P0,partial,image,social-video-keyframes,Approved script and shot/action/continuity ledger,Frames are planning references and do not establish motion quality
+social-bts,social,Behind-the-scenes and founder stories,P1,covered,image,portrait-documentary|consistency-series-scene,Authorized subjects and truthful setting and story,Believable context without fabricated documentary claims
+social-faq,social,FAQ and myth-versus-fact cards,P0,covered,hybrid,design-information-layout,Approved question-answer pairs and claim evidence,No invented facts and legible mobile text
+social-data-story,social,Data and milestone story cards,P1,covered,hybrid,design-information-layout|mkt-case-study-evidence,Actual data and source and dates and denominators,Charts rendered from data and metrics independently checked
+social-pinterest,social,Pinterest product and how-to pins,P1,covered,hybrid,product-lifestyle-context|amz-gallery-how-to-use,Approved product or steps and vertical reading order,Platform-specific vertical canvas and visible approved branding
+social-profile,social,Avatar profile and channel identity,P0,covered,hybrid,brand-responsive-mark-proof,Approved symbol variant and actual avatar masks,Small-size recognition and exact source artwork
+social-banner,social,Channel banner across device crops,P1,partial,hybrid,social-cover-crop-proof,Current device crop masks and brand mark,Inspect center-safe intersection for all required devices
+social-shoppable,social,Shoppable product scene and native tags,P1,covered,hybrid,product-lifestyle-context|social-native-sticker-backdrop,Product inventory and tag bounds and approved claims,Add actual product links/tags natively
+social-localized,social,Localized and cultural adaptation,P0,covered,hybrid,design-localization-master,Approved translated copy and cultural brief,Native-language and cultural review
+social-animation-audio,social,Animation editing music and captions,P0,external,native,,Approved script and timing and footage and sound rights,Use video/audio tools and verify caption timing
+social-publishing,social,Scheduling community response and account operations,P0,external,native,,Account access and authorized editorial schedule,Platform actions require explicit publishing scope
+social-performance,social,Post and creative performance analysis,P0,covered,hybrid,evaluation-variant-comparison,Actual impressions clicks retention and test design,Separate measured results from aesthetic review
+brand-reference-brief,branding,Reference observation and image-to-brief preparation,P0,partial,hybrid,brief-reference-observation,Authorized reference and permitted traits and intended changes,Preparation output only; distinguish visible observations from inferred or unknown facts
+app-tool-prompt,app,Adapt a creative prompt to the actual model and surface,P0,partial,hybrid,brief-model-surface-adapter,Approved prompt and exact tool mode and verified controls,Preparation output only; preserve locks and omit unsupported fields or numeric defaults
+mkt-isolated-cutout,marketing,Transparent product cutout and consistent batch isolation,P0,partial,hybrid,edit-background-replace,Originals and foreground locks and shadow rule and batch manifest,Inspect real alpha edges and product labels per file; native mask/composite for exact foreground pixels

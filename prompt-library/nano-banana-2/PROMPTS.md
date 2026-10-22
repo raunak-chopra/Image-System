@@ -59,7 +59,7 @@ Compare locks to references, inspect labels/materials/shadows at 100%, overlay a
 - **Runs:** attempted 1; passed 1
 - **Observed result:** Exact preservation of off-white matte bottle and vertical spunge® wordmark; paired with silver foil monocarton outer box on sleek architectural pedestal; dark cyan (`#006375`) headline typography with high contrast; clean copy hierarchy (`13X Better EPA Absorption`, tagline, dosage, footnote).
 - **Observed limitations:** Minor raster softness on small legal disclaimer text; packaging wordmark rendered accurately due to reference locking.
-- **Artifacts:** `outputs/spunge_hero_banner_1789537935582.jpg`
+- **Artifacts:** `outputs/spunge/hero-banner/2026-09-16/spunge_hero_banner_1789537935582.jpg`
 - **Reviewer:** User verified ("great work")
 
 ## nb2-product-lock-edit — Exact product packshot edit
@@ -222,5 +222,5 @@ Proof character by character, check approved claims, contrast, reading order, ma
 - **Runs:** attempted 2; passed 2
 - **Observed result:** Successfully rendered high-contrast Swiss typography and structured graphic elements: `13X Bioavailability` headline, comparative benchmarking graphics (`1X vs 13X`), biological cell membrane barrier graphic, clear Swiss layout badges (`3X Smaller Particle Size`, `Zero Fishy Aftertaste`), and intact mandatory footnote (`*13X EPA bioavailability compared to ordinary fish oil.`).
 - **Observed limitations:** Dense multi-paragraph body copy should not be pushed to raster generation; keeping copy to structured badge chips, bold headlines, and single-line footnotes achieved 100% legibility.
-- **Artifacts:** `outputs/fish_oil_infographic_1789537699887.jpg`, `outputs/spunge_infographic_banner_1789537956962.jpg`
+- **Artifacts:** `outputs/spunge/infographic/2026-09-16/fish_oil_infographic_1789537699887.jpg`, `outputs/spunge/infographic/2026-09-16/spunge_infographic_banner_1789537956962.jpg`
 - **Reviewer:** User verified ("great work")

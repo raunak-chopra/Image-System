@@ -52,3 +52,5 @@ The Chang-Hai collection demonstrates why `actually tested` needs more than a pr
 ```
 
 A single successful run proves only that one recorded configuration produced that output. It does not establish repeatability, pixel fidelity, factual correctness, commercial clearance, or support for a requested size that the tool did not actually return. Reconstructed prompts must be labeled `reconstructed` and must never be described as original prompts.
+
+Record raw requested/returned dimensions and postprocessing separately. Final exported dimensions determine delivery compliance; raw-size mismatch or upscaling alone is not a delivery failure. Record confirmed final-export failures in `d_delivery_fails` and pending detail/legibility/crop/alpha checks as unverified. Approval requires those applicable checks to pass. Native-size capability evidence is distinct from final-delivery compliance.

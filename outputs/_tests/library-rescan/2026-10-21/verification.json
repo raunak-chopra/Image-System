@@ -1,0 +1,556 @@
+{
+  "checked_on": "2026-10-21",
+  "total": 110,
+  "passed": 110,
+  "results": [
+    {
+      "case": "brand-positioning",
+      "passed": true,
+      "exit": 0
+    },
+    {
+      "case": "brand-creative-territories",
+      "passed": true,
+      "exit": 0
+    },
+    {
+      "case": "brand-logo-ideas",
+      "passed": true,
+      "exit": 0
+    },
+    {
+      "case": "brand-responsive-marks",
+      "passed": true,
+      "exit": 0
+    },
+    {
+      "case": "brand-type-system",
+      "passed": true,
+      "exit": 0
+    },
+    {
+      "case": "brand-color-roles",
+      "passed": true,
+      "exit": 0
+    },
+    {
+      "case": "brand-guidelines",
+      "passed": true,
+      "exit": 0
+    },
+    {
+      "case": "brand-icons",
+      "passed": true,
+      "exit": 0
+    },
+    {
+      "case": "brand-illustrations",
+      "passed": true,
+      "exit": 0
+    },
+    {
+      "case": "brand-mascot",
+      "passed": true,
+      "exit": 0
+    },
+    {
+      "case": "brand-photo-language",
+      "passed": true,
+      "exit": 0
+    },
+    {
+      "case": "brand-portrait-style",
+      "passed": true,
+      "exit": 0
+    },
+    {
+      "case": "brand-patterns",
+      "passed": true,
+      "exit": 0
+    },
+    {
+      "case": "brand-label-wrap",
+      "passed": true,
+      "exit": 0
+    },
+    {
+      "case": "brand-range",
+      "passed": true,
+      "exit": 0
+    },
+    {
+      "case": "brand-unboxing",
+      "passed": true,
+      "exit": 0
+    },
+    {
+      "case": "brand-cobrand",
+      "passed": true,
+      "exit": 0
+    },
+    {
+      "case": "brand-stationery",
+      "passed": true,
+      "exit": 0
+    },
+    {
+      "case": "brand-signage",
+      "passed": true,
+      "exit": 0
+    },
+    {
+      "case": "brand-campaign-system",
+      "passed": true,
+      "exit": 0
+    },
+    {
+      "case": "brand-localization",
+      "passed": true,
+      "exit": 0
+    },
+    {
+      "case": "brand-material-proofs",
+      "passed": true,
+      "exit": 0
+    },
+    {
+      "case": "brand-business-documents",
+      "passed": true,
+      "exit": 0
+    },
+    {
+      "case": "brand-motion-identity",
+      "passed": true,
+      "exit": 0
+    },
+    {
+      "case": "brand-handoff",
+      "passed": true,
+      "exit": 0
+    },
+    {
+      "case": "mkt-main-packshot",
+      "passed": true,
+      "exit": 0
+    },
+    {
+      "case": "mkt-gallery-benefits",
+      "passed": true,
+      "exit": 0
+    },
+    {
+      "case": "mkt-ingredient-breakdown",
+      "passed": true,
+      "exit": 0
+    },
+    {
+      "case": "mkt-product-use",
+      "passed": true,
+      "exit": 0
+    },
+    {
+      "case": "mkt-comparison",
+      "passed": true,
+      "exit": 0
+    },
+    {
+      "case": "mkt-process",
+      "passed": true,
+      "exit": 0
+    },
+    {
+      "case": "mkt-proof",
+      "passed": true,
+      "exit": 0
+    },
+    {
+      "case": "mkt-aplus",
+      "passed": true,
+      "exit": 0
+    },
+    {
+      "case": "mkt-brandstore",
+      "passed": true,
+      "exit": 0
+    },
+    {
+      "case": "mkt-bundles",
+      "passed": true,
+      "exit": 0
+    },
+    {
+      "case": "mkt-cutaway",
+      "passed": true,
+      "exit": 0
+    },
+    {
+      "case": "mkt-offer",
+      "passed": true,
+      "exit": 0
+    },
+    {
+      "case": "mkt-acquisition",
+      "passed": true,
+      "exit": 0
+    },
+    {
+      "case": "mkt-retargeting",
+      "passed": true,
+      "exit": 0
+    },
+    {
+      "case": "mkt-angle-matrix",
+      "passed": true,
+      "exit": 0
+    },
+    {
+      "case": "mkt-display-slots",
+      "passed": true,
+      "exit": 0
+    },
+    {
+      "case": "mkt-responsive-assets",
+      "passed": true,
+      "exit": 0
+    },
+    {
+      "case": "mkt-email",
+      "passed": true,
+      "exit": 0
+    },
+    {
+      "case": "mkt-landing-hero",
+      "passed": true,
+      "exit": 0
+    },
+    {
+      "case": "mkt-event",
+      "passed": true,
+      "exit": 0
+    },
+    {
+      "case": "mkt-sales-case",
+      "passed": true,
+      "exit": 0
+    },
+    {
+      "case": "mkt-outdoor",
+      "passed": true,
+      "exit": 0
+    },
+    {
+      "case": "mkt-seasonal",
+      "passed": true,
+      "exit": 0
+    },
+    {
+      "case": "mkt-experiment",
+      "passed": true,
+      "exit": 0
+    },
+    {
+      "case": "mkt-strategy-measurement",
+      "passed": true,
+      "exit": 0
+    },
+    {
+      "case": "app-user-flows",
+      "passed": true,
+      "exit": 0
+    },
+    {
+      "case": "app-wireframe",
+      "passed": true,
+      "exit": 0
+    },
+    {
+      "case": "app-component-library",
+      "passed": true,
+      "exit": 0
+    },
+    {
+      "case": "app-icon-concept",
+      "passed": true,
+      "exit": 0
+    },
+    {
+      "case": "app-launcher-layers",
+      "passed": true,
+      "exit": 0
+    },
+    {
+      "case": "app-store-icon",
+      "passed": true,
+      "exit": 0
+    },
+    {
+      "case": "app-store-screenshots",
+      "passed": true,
+      "exit": 0
+    },
+    {
+      "case": "app-feature-graphic",
+      "passed": true,
+      "exit": 0
+    },
+    {
+      "case": "app-onboarding-art",
+      "passed": true,
+      "exit": 0
+    },
+    {
+      "case": "app-empty-art",
+      "passed": true,
+      "exit": 0
+    },
+    {
+      "case": "app-recovery-art",
+      "passed": true,
+      "exit": 0
+    },
+    {
+      "case": "app-achievement-art",
+      "passed": true,
+      "exit": 0
+    },
+    {
+      "case": "app-product-tour",
+      "passed": true,
+      "exit": 0
+    },
+    {
+      "case": "app-theme-art",
+      "passed": true,
+      "exit": 0
+    },
+    {
+      "case": "app-content-images",
+      "passed": true,
+      "exit": 0
+    },
+    {
+      "case": "app-avatar-system",
+      "passed": true,
+      "exit": 0
+    },
+    {
+      "case": "app-ui-icons",
+      "passed": true,
+      "exit": 0
+    },
+    {
+      "case": "app-splash-art",
+      "passed": true,
+      "exit": 0
+    },
+    {
+      "case": "app-texture",
+      "passed": true,
+      "exit": 0
+    },
+    {
+      "case": "app-responsive-ui",
+      "passed": true,
+      "exit": 0
+    },
+    {
+      "case": "app-state-behavior",
+      "passed": true,
+      "exit": 0
+    },
+    {
+      "case": "app-charts",
+      "passed": true,
+      "exit": 0
+    },
+    {
+      "case": "app-accessibility",
+      "passed": true,
+      "exit": 0
+    },
+    {
+      "case": "app-asset-handoff",
+      "passed": true,
+      "exit": 0
+    },
+    {
+      "case": "app-code-release",
+      "passed": true,
+      "exit": 0
+    },
+    {
+      "case": "social-calendar",
+      "passed": true,
+      "exit": 0
+    },
+    {
+      "case": "social-carousel",
+      "passed": true,
+      "exit": 0
+    },
+    {
+      "case": "social-announcement",
+      "passed": true,
+      "exit": 0
+    },
+    {
+      "case": "social-cover",
+      "passed": true,
+      "exit": 0
+    },
+    {
+      "case": "social-thumbnail",
+      "passed": true,
+      "exit": 0
+    },
+    {
+      "case": "social-story-interaction",
+      "passed": true,
+      "exit": 0
+    },
+    {
+      "case": "social-quote",
+      "passed": true,
+      "exit": 0
+    },
+    {
+      "case": "social-ugc",
+      "passed": true,
+      "exit": 0
+    },
+    {
+      "case": "social-community-feature",
+      "passed": true,
+      "exit": 0
+    },
+    {
+      "case": "social-meme",
+      "passed": true,
+      "exit": 0
+    },
+    {
+      "case": "social-podcast",
+      "passed": true,
+      "exit": 0
+    },
+    {
+      "case": "social-live-art",
+      "passed": true,
+      "exit": 0
+    },
+    {
+      "case": "social-stickers",
+      "passed": true,
+      "exit": 0
+    },
+    {
+      "case": "social-short-video-plan",
+      "passed": true,
+      "exit": 0
+    },
+    {
+      "case": "social-bts",
+      "passed": true,
+      "exit": 0
+    },
+    {
+      "case": "social-faq",
+      "passed": true,
+      "exit": 0
+    },
+    {
+      "case": "social-data-story",
+      "passed": true,
+      "exit": 0
+    },
+    {
+      "case": "social-pinterest",
+      "passed": true,
+      "exit": 0
+    },
+    {
+      "case": "social-profile",
+      "passed": true,
+      "exit": 0
+    },
+    {
+      "case": "social-banner",
+      "passed": true,
+      "exit": 0
+    },
+    {
+      "case": "social-shoppable",
+      "passed": true,
+      "exit": 0
+    },
+    {
+      "case": "social-localized",
+      "passed": true,
+      "exit": 0
+    },
+    {
+      "case": "social-animation-audio",
+      "passed": true,
+      "exit": 0
+    },
+    {
+      "case": "social-publishing",
+      "passed": true,
+      "exit": 0
+    },
+    {
+      "case": "social-performance",
+      "passed": true,
+      "exit": 0
+    },
+    {
+      "case": "domain keyword alias",
+      "passed": true,
+      "exit": 0
+    },
+    {
+      "case": "legacy keyword and mode",
+      "passed": true,
+      "exit": 0
+    },
+    {
+      "case": "bad domain rejected",
+      "passed": true,
+      "exit": 1
+    },
+    {
+      "case": "bad use case rejected",
+      "passed": true,
+      "exit": 1
+    },
+    {
+      "case": "conflicting scope rejected",
+      "passed": true,
+      "exit": 1
+    },
+    {
+      "case": "domain restriction branding",
+      "passed": true,
+      "exit": 0
+    },
+    {
+      "case": "domain restriction marketing",
+      "passed": true,
+      "exit": 0
+    },
+    {
+      "case": "domain restriction app",
+      "passed": true,
+      "exit": 0
+    },
+    {
+      "case": "domain restriction social",
+      "passed": true,
+      "exit": 0
+    },
+    {
+      "case": "all 30 new templates routed and untested",
+      "passed": true
+    }
+  ]
+}

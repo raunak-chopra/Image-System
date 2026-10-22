@@ -11,8 +11,8 @@
 - **Validation:** adapted template
 - **Required inputs:** product reference, delivery ratio, background specification
 - **Reference assets:** `REF 1 = product identity and label truth`
-- **Sources:** SRC-02, SRC-06, SRC-07, SRC-10
-- **Reuse:** Original synthesis. SRC-02 and SRC-06 have no explicit content license—paraphrase only; SRC-07 is MIT—technique paraphrased; SRC-10 is mixed MIT/CC BY 4.0—no source entry copied.
+- **Sources:** SRC-02, SRC-06, SRC-07, SRC-10, SRC-28
+- **Reuse:** Original synthesis. SRC-02 and SRC-06 have no explicit content license—paraphrase only; SRC-07 is MIT—technique paraphrased; SRC-10 is mixed MIT/CC BY 4.0—no source entry copied; SRC-28 owner-supplied reference and workspace run records—private benchmark findings only.
 
 ### Prompt
 
@@ -21,6 +21,8 @@ Edit `REF 1` into a premium ecommerce packshot of the exact same `{PRODUCT}`. Pr
 ### Variations and adaptation
 
 Use a faint surface reflection for glass or polished metal; omit it for matte paper, cloth, or marketplace rules. Replace centered framing with a left/right copy-safe composition for banners.
+
+For a main-image brief that requires at least 85% fill, state the whole-product vertical bounds and frame occupancy together, rather than relying on a margin alone. In SRC-28's opaque built-in surface trial, the baseline measured 78% fill and the bounds-based revision measured 88%, 90%, 92% over three attempts after export. All raw outputs were only 1254x1254. This is scoped framing evidence, not authenticated artwork preservation or cross-model validation; see the [benchmark](../../outputs/_tests/prompt-upgrade/2026-10-11/README.md).
 
 ### Constraints and common failures
 
@@ -71,8 +73,8 @@ Check brand color, material response, focal hierarchy, copy-safe region, readabl
 - **Validation:** adapted template
 - **Required inputs:** product reference, audience, context, channel ratio
 - **Reference assets:** `REF 1 = product identity`; `[optional: REF 2 = environment style only]`
-- **Sources:** SRC-02, SRC-06, SRC-09
-- **Reuse:** Original synthesis. SRC-02 and SRC-06 have no explicit content license—paraphrase only; SRC-09 is MIT—technique paraphrased.
+- **Sources:** SRC-02, SRC-06, SRC-09, SRC-29 section 2.3 (foreground beauty product)
+- **Reuse:** Original synthesis. SRC-02 and SRC-06 have no explicit content license—paraphrase only; SRC-09 is MIT—technique paraphrased; SRC-29 repository MIT with unresolved third-party prompt rights—general staging concept only, no prompt or preview copied.
 
 ### Prompt
 
@@ -81,6 +83,8 @@ Place the exact `{PRODUCT}` from `REF 1` in `{ENVIRONMENT}` during `{TIME_OF_DAY
 ### Variations and adaptation
 
 Use an environment reference only for mood/layout, never product truth. For food/cosmetics, specify sanitary, appetizing but realistic texture and avoid impossible ingredient depictions.
+
+For a product-forward beauty portrait, replace the optional environment reference with `REF 2 = identity` when an authorized person reference is supplied. Add their face, skin tone and distinctive features to the locks. Keep the entire product and label sharp in the foreground, the face in a softer background plane, and fingers away from essential label copy. Specify a plausible grip, product-to-hand scale and the allowed focus falloff; do not use wide-angle distortion to enlarge or redesign the package. SRC-29 section 2.3 credits [Özge](https://x.com/astronomerozge1/status/2005967732781576583); its numeric identity-lock setting is not a verified provider control.
 
 ### Constraints and common failures
 
