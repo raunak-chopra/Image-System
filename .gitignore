@@ -12,4 +12,4 @@ __pycache__/
 *.tmp
 
 # Duplicate packaged exports (source assets are tracked)
-exports/*.zip
+outputs/**/*.zip

@@ -1,5 +1,7 @@
 # Memory & Feedback Loop Schema
 
+Library maintenance feedback is kept in `library-feedback.jsonl` with `event_id`, `date`, `scope`, `sentiment`, `user_feedback_verbatim`, `actionable_learnings` and `result`. It records real user corrections to catalog coverage or workflow; it is not a generated asset event and must not enter image-generation approval metrics. Existing asset-feedback records below retain their schema.
+
 The 2nd memory loop captures user sentiment, evaluates what succeeds and fails, and continuously adapts prompt crafting for future generations.
 
 ---
@@ -65,7 +67,7 @@ interface FeedbackRecord {
 
 1. **Global Winning Patterns (Liked)**: Styles, lighting techniques, compositional arrangements, and typographic choices that consistently receive praise.
 2. **Global Anti-Patterns (Disliked / Avoid)**: Visual artifacts, layout errors, illegible text, or unwanted styles that cause rejection.
-3. **Brand-Specific Memorized Preferences**: Brand-level nuances (e.g. Spunge Dark Cyan `#006375`, architectural pedestals, softgel dispersion visuals).
+3. **Brand pointers**: brand-level nuances live in `brands/<brand>/`; this guide only links to them.
 4. **Metrics & Health**: Total assets reviewed, like/dislike counts, and approval percentage.
 
 ---

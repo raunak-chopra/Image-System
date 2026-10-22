@@ -1,0 +1,23 @@
+{
+  "SRC-21": {
+    "repo": "EvoLinkAI/awesome-gpt-image-2-API-and-Prompts",
+    "pushed_at": "2026-07-18T06:23:28Z",
+    "checked": "2026-10-07"
+  },
+  "SRC-22a": {
+    "repo": "YouMind-OpenLab/awesome-nano-banana-pro-prompts",
+    "pushed_at": "2026-10-07T16:04:35Z",
+    "checked": "2026-10-07"
+  },
+  "SRC-22b": {
+    "repo": "YouMind-OpenLab/nano-banana-pro-prompts-recommend-skill",
+    "pushed_at": "2026-10-07T05:23:04Z",
+    "checked": "2026-10-07"
+  },
+  "SRC-29": {
+    "repo": "devanshug2307/Awesome-AI-Image-Prompts",
+    "pushed_at": "2026-08-08T05:43:52Z",
+    "checked": "2026-10-21",
+    "reviewed_commit": "8f34520e2f8840ae56cb9c1e2bcde874ec79de89"
+  }
+}

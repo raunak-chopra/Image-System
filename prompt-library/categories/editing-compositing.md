@@ -11,8 +11,8 @@
 - **Validation:** adapted template
 - **Required inputs:** source image, target environment, locked subject list
 - **Reference assets:** `REF 1 = source image`; `[optional: REF 2 = target environment]`
-- **Sources:** SRC-02, SRC-10, SRC-17, SRC-18
-- **Reuse:** Original synthesis. SRC-02 has no explicit content license—paraphrase only; SRC-10 mixed-license—evidence method only; SRC-17 is MIT—workflow idea only; SRC-18 data is mixed-license—vocabulary concept only.
+- **Sources:** SRC-02, SRC-10, SRC-17, SRC-18, SRC-30, SRC-40, SRC-41, SRC-42, SRC-43
+- **Reuse:** Original synthesis. SRC-02 has no explicit content license—paraphrase only; SRC-10 mixed-license—evidence method only; SRC-17 is MIT—workflow idea only; SRC-18 data is mixed-license—vocabulary concept only; SRC-30 community cutout recommendation paraphrased; SRC-40/41/42/43 official product descriptions used for routing only, no source assets, claims or prose copied.
 
 ### Prompt
 
@@ -21,6 +21,8 @@ Edit `REF 1`. Replace only the background with `{TARGET_ENVIRONMENT}` [optional:
 ### Variations and adaptation
 
 If large relighting is required, first replace the background, then request a separate narrow relight pass. For hair/glass, call out fine edge transmission and no halos.
+
+For an isolated transparent cutout, change only the background to actual alpha. Preserve foreground RGB detail, fine hair, product silhouette, labels, holes and transparent/glass edge behavior; supply an explicit keep/remove-shadow rule. Prefer a foreground mask/cutout workflow when exact pixels matter. Inspect the exported alpha over black, white and a contrasting color; a checkerboard painted into the image is a failure. A batch job needs an input-to-output manifest, consistent padding/scale and per-file edge/label checks. SRC-30's tool suggestions are discovery leads; supported features and sample results must be checked before choosing a service. See the [resource directory](../sources/reddit-comment-review-2026-10-21.md).
 
 ### Constraints and common failures
 
@@ -101,8 +103,8 @@ Compare facial landmarks and historical details, inspect repaired boundaries, pr
 - **Validation:** adapted template
 - **Required inputs:** source image, exact target region, target material/style, preserve list
 - **Reference assets:** `REF 1 = source image`; `[optional: REF 2 = material/style properties only]`
-- **Sources:** SRC-06, SRC-09, SRC-10, SRC-16
-- **Reuse:** Original synthesis. SRC-06 and SRC-16 have no explicit content license—paraphrase/concept only; SRC-09 is MIT—technique paraphrased; SRC-10 mixed-license—narrow-edit evidence only.
+- **Sources:** SRC-06, SRC-09, SRC-10, SRC-16, SRC-29 sections 10.5 and 10.9 (captions only)
+- **Reuse:** Original synthesis. SRC-06 and SRC-16 have no explicit content license—paraphrase/concept only; SRC-09 is MIT—technique paraphrased; SRC-10 mixed-license—narrow-edit evidence only; SRC-29 repository MIT with unresolved third-party rights—material concept from captions only, no prompt or preview copied.
 
 ### Prompt
 
@@ -111,6 +113,8 @@ Edit `REF 1` only inside `{TARGET_REGION}`. Change `{CURRENT_APPEARANCE}` to `{T
 ### Variations and adaptation
 
 For global style transfer, keep subject identity/composition/content locked and change only medium, line, palette and texture. For clothing color, preserve weave, folds, seams, highlight values and skin boundaries.
+
+For an owner-supplied logo rendered in glass or wax, use `REF 1 = product` for the approved mark and preserve its silhouette, internal counters, spacing and proportions. Specify surface depth as a presentation effect, not permission to redraw the mark. Inspect the outline against the approved artwork and composite that artwork if exactness fails. This is a workspace-authored variation informed by captions: SRC-29 sections 10.5/10.9, credited to [AmirMušić](https://x.com/AmirMushich/status/1998766162033713370) and [AmirMušić](https://x.com/AmirMushich/status/1995542490049290680), contain only “Prompt below” rather than usable source prompts. No original prompt was recovered.
 
 ### Constraints and common failures
 

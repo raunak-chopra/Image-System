@@ -1,0 +1,192 @@
+{
+  "_meta": {
+    "verified": "2026-10-07",
+    "note": "Values come from secondary guides (see formats/*.md). Entries with verify:true were not confirmed by two sources - check the platform's own docs before a paid launch."
+  },
+  "amazon-main": {
+    "w": 2000,
+    "h": 2000,
+    "fmt": "JPEG",
+    "max_kb": 10240,
+    "bg": "white",
+    "min_fill": 0.85,
+    "notes": "pure RGB 255 white, product >=85% of frame, no text/logos/badges"
+  },
+  "amazon-gallery": {
+    "w": 2000,
+    "h": 2000,
+    "fmt": "JPEG",
+    "max_kb": 10240,
+    "notes": "1:1 slides 2-7; text and graphics allowed; keep text readable at mobile thumbnail size"
+  },
+  "amazon-aplus-header": {
+    "w": 970,
+    "h": 600,
+    "fmt": "JPEG",
+    "max_kb": 2048,
+    "notes": "A+ header image module; no price/promo claims/links"
+  },
+  "amazon-aplus-banner": {
+    "w": 970,
+    "h": 300,
+    "fmt": "JPEG",
+    "max_kb": 2048,
+    "notes": "A+ standard single image / full-width banner"
+  },
+  "amazon-aplus-tile": {
+    "w": 300,
+    "h": 300,
+    "fmt": "JPEG",
+    "max_kb": 2048,
+    "notes": "A+ image-and-text / feature tile"
+  },
+  "amazon-aplus-premium-header": {
+    "w": 1464,
+    "h": 600,
+    "fmt": "JPEG",
+    "max_kb": 2048,
+    "verify": true,
+    "notes": "Premium A+ full-width module"
+  },
+  "amazon-brandstore-hero": {
+    "w": 3000,
+    "h": 600,
+    "fmt": "JPEG",
+    "max_kb": 5120,
+    "verify": true,
+    "notes": "Brand Store hero tile; desktop crop is narrower than mobile - keep subject centered"
+  },
+  "meta-feed-4x5": {
+    "w": 1080,
+    "h": 1350,
+    "fmt": "JPEG",
+    "max_kb": 30720,
+    "notes": "primary feed format"
+  },
+  "meta-square-1x1": {
+    "w": 1080,
+    "h": 1080,
+    "fmt": "JPEG",
+    "max_kb": 30720,
+    "notes": "carousel cards must be 1:1"
+  },
+  "meta-story-9x16": {
+    "w": 1080,
+    "h": 1920,
+    "fmt": "JPEG",
+    "max_kb": 30720,
+    "safe": {
+      "top": 0.14,
+      "bottom": 0.2
+    },
+    "notes": "Stories/Reels; keep text/logo/CTA out of top 14% and bottom 20% (Reels up to 35%)"
+  },
+  "meta-landscape": {
+    "w": 1200,
+    "h": 628,
+    "fmt": "JPEG",
+    "max_kb": 30720,
+    "notes": "1.91:1 link format"
+  },
+  "google-landscape": {
+    "w": 1200,
+    "h": 628,
+    "fmt": "JPEG",
+    "max_kb": 5120,
+    "notes": "PMax/Display 1.91:1 (min 600x314)"
+  },
+  "google-square": {
+    "w": 1200,
+    "h": 1200,
+    "fmt": "JPEG",
+    "max_kb": 5120,
+    "notes": "PMax/Display 1:1 (min 300x300)"
+  },
+  "google-portrait": {
+    "w": 960,
+    "h": 1200,
+    "fmt": "JPEG",
+    "max_kb": 5120,
+    "notes": "PMax 4:5 (min 480x600)"
+  },
+  "ig-feed-4x5": {
+    "w": 1080,
+    "h": 1350,
+    "fmt": "JPEG",
+    "max_kb": 8192,
+    "notes": "organic portrait post"
+  },
+  "ig-story-9x16": {
+    "w": 1080,
+    "h": 1920,
+    "fmt": "JPEG",
+    "max_kb": 8192,
+    "safe": {
+      "top": 0.14,
+      "bottom": 0.2
+    },
+    "notes": "organic Story/Reel cover"
+  },
+  "linkedin-landscape": {
+    "w": 1200,
+    "h": 627,
+    "fmt": "JPEG",
+    "max_kb": 5120,
+    "notes": ""
+  },
+  "linkedin-square": {
+    "w": 1200,
+    "h": 1200,
+    "fmt": "JPEG",
+    "max_kb": 5120,
+    "notes": ""
+  },
+  "x-landscape": {
+    "w": 1280,
+    "h": 720,
+    "fmt": "JPEG",
+    "max_kb": 5120,
+    "notes": ""
+  },
+  "youtube-thumb": {
+    "w": 1280,
+    "h": 720,
+    "fmt": "JPEG",
+    "max_kb": 2048,
+    "verify": true,
+    "notes": "16:9, min width 640; keep key content away from bottom-right timestamp"
+  },
+  "pinterest-pin": {
+    "w": 1000,
+    "h": 1500,
+    "fmt": "JPEG",
+    "max_kb": 20480,
+    "verify": true,
+    "notes": "2:3 standard pin"
+  },
+  "web-hero": {
+    "w": 1920,
+    "h": 1080,
+    "fmt": "JPEG",
+    "max_kb": 1024,
+    "verify": true,
+    "notes": "convention, not a platform rule; reserve copy-safe side"
+  },
+  "app-play-icon": {
+    "w": 512,
+    "h": 512,
+    "fmt": "PNG",
+    "max_kb": 1024,
+    "verified": "2026-10-21",
+    "source": "https://support.google.com/googleplay/android-developer/answer/9866151?hl=en",
+    "notes": "Native export: 32-bit PNG with alpha; do not use RGB-only resize helper for final icon resource; no baked rounded mask or drop shadow"
+  },
+  "app-play-feature": {
+    "w": 1024,
+    "h": 500,
+    "fmt": "JPEG",
+    "max_kb": 10240,
+    "verify": true,
+    "notes": "Official fixed dimensions checked 2026-10-21; JPEG or 24-bit PNG without alpha. File budget here is a studio target, not a verified Play limit. Check current platform overlays and cutoff zones."
+  }
+}
